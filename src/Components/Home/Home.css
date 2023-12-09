@@ -1,0 +1,160 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+.home__row button {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+.home {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  padding: 2em 0 0 0;
+  margin: 0 auto;
+}
+.home svg {
+  width: 100px;
+  height: 40px;
+  object-fit: contain;
+}
+.home__total {
+  background-color: black;
+}
+
+.twoh1 {
+  color: white;
+  font-size: 3rem;
+
+  font-weight: 900;
+  margin: 6rem 0 0 8rem;
+}
+.twoh1 h1:first-child {
+  padding-bottom: 1rem;
+}
+.twoh1firstp {
+  padding: 1rem 0 2rem 0;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+.twoh1secondp {
+  font-size: 1rem;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.7);
+}
+.twoh1 input,
+.twoh1 button {
+  width: 30%;
+  background-color: black;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid rgb(53, 102, 53);
+  font-weight: 400;
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+  padding-left: 1.5rem;
+  color: white;
+  height: 3.4rem;
+}
+
+.twoh1 button {
+  background-color: red;
+  font-size: 1.6rem;
+  width: 200px;
+  text-align: center;
+  border: none;
+  font-weight: 500;
+  margin-left: 0.5rem;
+  padding: 0.6rem;
+}
+.twoh1 button::after {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\3e";
+  margin-left: 0.5rem;
+}
+.what_netflix::after {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f067";
+}
+.times_netflix::after {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f00d";
+}
+
+.curve {
+  width: 100%;
+  height: 10px;
+  background-image: linear-gradient(to right, #4b0606, #1b0dde, #4b0606);
+  border-radius: 50%/100% 100% 0 0;
+  margin-bottom: 100px;
+}
+.card {
+  width: 80%;
+  margin-left: 10%;
+  border: none;
+  border-radius: 10px;
+  padding: 1rem;
+  background-color: #3f152a;
+  color: white;
+  transition: transform 900ms;
+  margin-bottom: 100px;
+}
+.card h3 {
+  font-size: 2.5rem;
+}
+.card p {
+  font-size: 1.3rem;
+}
+.card:hover {
+  transform: scale(1.04);
+  background: linear-gradient(to right, #641d3e, #360e2f);
+}
+.selection-option {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+
+label {
+  margin-right: 10px;
+}
+
+select {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+select:focus {
+  outline: none;
+  border-color: #007bff;
+}
+#selection {
+  background-color: black;
+  color: white;
+  padding: 1rem;
+  font-size: 1.3rem;
+}
+.trending {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-left: 10%;
+}
+
+.play {
+  color: white;
+  margin-top: 200px;
+  margin-left: 10%;
+  font-size: 1.5rem;
+}
