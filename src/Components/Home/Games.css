@@ -1,0 +1,16 @@
+.gamesimage {
+  background-image: url(https://assets.nflxext.com/ffe/siteui/acquisition/nmhp/games-banner-image-cropped.png);
+  background-position: center;
+  height: 180px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 50%;
+}
+.games {
+  display: flex;
+  justify-content: space-around;
+  width: 90%;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgb(6, 3, 3);
+  background: linear-gradient(to right, #391428, #391428, #1f0f22, #1f0f22);
+}

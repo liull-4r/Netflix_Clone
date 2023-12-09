@@ -1,0 +1,16 @@
+
+.join h3{
+    font-size: 1.5rem;
+    padding-bottom: 0.5rem;
+}
+.joinstories {
+  width: 250px;
+  padding-top: 20px;
+  text-align: center;
+  font-size: 1.8rem;
+  height: 200px;
+  border-radius: 20px;
+  background: linear-gradient(to bottom right, #192043 0%, #192043 50%, #1D172C 50%, #201321 100%);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}

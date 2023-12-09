@@ -1,0 +1,57 @@
+.input {
+  position: relative;
+}
+
+.input .input-text {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  opacity: 0.8;
+  font-size: 1rem;
+}
+
+.input .input-field {
+  width: 70%;
+  padding: 1.2rem;
+  border: 0.5px solid white;
+  outline: none;
+  border-radius: 5px;
+  margin-right: 1rem;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #1C2432;
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 20px;
+}
+
+.input .input-field:focus {
+  outline: 2px solid white;
+  border: 1px solid green;
+  outline-offset: 2px;
+}
+
+.input .input-field::placeholder {
+  opacity: 1;
+  transition: transform 0.3s ease;
+}
+
+.input .input-field:focus::placeholder {
+  transform: translateY(-90%);
+}
+
+.input .input-button {
+  width: 200px;
+  padding: 1.2rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  color: #fff;
+  background-color: red;
+  font-family: 'Roboto', sans-serif;
+}
+
+.input .input-button::after {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\3e";
+  margin-left: 0.5rem;
+}

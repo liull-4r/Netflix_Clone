@@ -1,0 +1,31 @@
+.selectfooter {
+  color: white;
+  background-color: #0f0f0f;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  text-align: center;
+  width: 100px;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
+  padding: 2em 0 0 0;
+}
+.footer li {
+  list-style: none;
+  font-size: 1rem;
+  padding-bottom: 0.5rem;
+  opacity: 0.8;
+}
+
+.footer li a {
+  color: white;
+}
