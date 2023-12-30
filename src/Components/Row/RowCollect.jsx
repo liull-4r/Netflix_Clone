@@ -1,6 +1,7 @@
 import Banner from "../Banner/Banner";
 import Nav from "../Nav/Nav";
-import request from "../Request/RequsetObject";
+// import request from "../Request/RequsetObject";
+import request from "../Request/RequsetObject.js";
 import Row from "./Row";
 
 function RowCollect() {
