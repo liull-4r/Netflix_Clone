@@ -1,5 +1,6 @@
 .banner {
   color: white;
+ 
   object-fit: contain;
   height: 448px;
 }
@@ -42,7 +43,7 @@
 .banner__button:hover {
   color: #000;
   background-color: #e6e6e6;
-  transition: all 0.6s;
+  transition: all 0.5s;
 }
 
 .banner__fadeBottom {

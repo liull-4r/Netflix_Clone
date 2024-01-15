@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import "./Nav.css";
 
+
 function Nav() {
   const [show, handleShow] = useState(false);
   useEffect(() => {
@@ -8,6 +9,10 @@ function Nav() {
       if (window.scrollY > 100) {
         handleShow(true);
       } else handleShow(false);
+
+      return () => {
+        window.removeEventListener("scroll");
+      }
     });
    
   }, []);

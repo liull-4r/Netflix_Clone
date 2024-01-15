@@ -5,3 +5,7 @@ const instance = axios.create({
 });
 
 export default instance;
+// https://api.themoviedb.org/3//trending/all/week?api_key=07a8b44f156720b969e2b7b20b65b01e&language=en-US
+
+
+

@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import "./SignIn.css";
-// import logo from "./download.png"
 function SignIn() {
   return (
     <div className="container">

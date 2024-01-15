@@ -1,5 +1,4 @@
-// import RowCollect from "./Components/Row/RowCollect";
-
+import RowCollect from "./Components/Row/RowCollect";
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import Home from "./Components/Home/Home";
@@ -7,12 +6,12 @@ import SignIn from "./Components/SignIn/SignIn";
 function App() {
   return (
     <div className="App">
-      <Routes>
+      {/* <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<SignIn />} />
-      </Routes>
+      </Routes> */}
 
-      {/* <RowCollect /> */}
+      <RowCollect />
     </div>
   );
 }
